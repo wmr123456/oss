@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="login" extends="struts-default,json-default" namespace="/">
+
+        <!--验证用户登录信息-->
+        <action name="mylogin" class="com.shinowit.actions.LoginAction" method="myLogin">
+            <result type="json" name="success">
+                <!--<param name="excludeProperties">.*hibernateLazyInitializer,.*handler,.*instockinfosByOperId,.*loginfosByOperId,.*authorizationsByRoleId,.*</param>-->
+                <!--<param name="includeProperties">list.*.roleinfoByRoleId</param>-->
+                <param name="excludeProperties">list.*.instockinfosByOperId,list.*.loginfosByOperId</param>
+            </result>
+        </action>
+
+        <!--跳转主界面-->
+        <action name="log" class="com.shinowit.actions.LoginAction" method="execute">
+            <result name="ok">/WEB-INF/view/main.jsp</result>
+        </action>
+        <!--查询用户信息-->
+        <action name="login" class="com.shinowit.actions.LogoutAction" method="execute">
+            <result name="ok" type="json"></result>
+        </action>
+
+        <!--取得用户的session信息-->
+        <action name="userinfo" class="com.shinowit.actions.LoginAction" method="userSession">
+            <result name="ok" type="json">
+            </result>
+        </action>
+    </package>
+</struts>

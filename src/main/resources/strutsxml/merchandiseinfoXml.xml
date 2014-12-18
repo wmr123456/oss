@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="merchandiseInfo" extends="struts-default,json-default" namespace="/">
+        <action name="merchandiseInsert" class="com.shinowit.actions.MerchandiseinfoAction" method="merchandiseInsert">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="merchandiseDel" class="com.shinowit.actions.MerchandiseinfoAction" method="merchandiseDel">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="merchandiseEdit" class="com.shinowit.actions.MerchandiseinfoAction" method="merchandiseEdit">
+            <result name="success" type="json"></result>
+        </action>
+    </package>
+</struts>

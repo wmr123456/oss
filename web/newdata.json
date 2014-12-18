@@ -1,0 +1,271 @@
+{"menulist": {
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/autorization.png",
+                        "menuId": "20",
+                        "menuName": "权限管理",
+                        "pmenuId": "1",
+                        "sortId": null,
+                        "sta": "authorizationpage",
+                        "status": null,
+                        "uRl": "js.authorization"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/add_user.png",
+                        "menuId": "10",
+                        "menuName": "用户管理",
+                        "pmenuId": "1",
+                        "sortId": null,
+                        "sta": "operinfopage",
+                        "status": null,
+                        "uRl": "js.operInfo"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "1",
+                "menuName": "用户管理",
+                "pmenuId": null,
+                "sortId": 1,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/goodsCla.png",
+                        "menuId": "11",
+                        "menuName": "商品分类管理",
+                        "pmenuId": "2",
+                        "sortId": null,
+                        "sta": "goodscClassPage",
+                        "status": null,
+                        "uRl": "js.goodsclass"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/proStatus.png",
+                        "menuId": "13",
+                        "menuName": "促销状态管理",
+                        "pmenuId": "2",
+                        "sortId": null,
+                        "sta": "proStatusInfo",
+                        "status": null,
+                        "uRl": "js.proStatusInfo"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/js.MerchandiseInfo.png",
+                        "menuId": "15",
+                        "menuName": "商品信息管理",
+                        "pmenuId": "2",
+                        "sortId": null,
+                        "sta": "merchandisepage",
+                        "status": null,
+                        "uRl": "js.MerchandiseInfo"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "2",
+                "menuName": "商品管理",
+                "pmenuId": null,
+                "sortId": 2,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/supplier.png",
+                        "menuId": "12",
+                        "menuName": "供应商管理",
+                        "pmenuId": "3",
+                        "sortId": null,
+                        "sta": "supplierPage",
+                        "status": null,
+                        "uRl": "js.supplierinfo"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/inStockInfo.png",
+                        "menuId": "17",
+                        "menuName": "入库管理",
+                        "pmenuId": "3",
+                        "sortId": null,
+                        "sta": "inStockInfoPage",
+                        "status": null,
+                        "uRl": "js.inStockInfo"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "3",
+                "menuName": "采购管理",
+                "pmenuId": null,
+                "sortId": 3,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/outStackinfo.png",
+                        "menuId": "19",
+                        "menuName": "出库管理",
+                        "pmenuId": "4",
+                        "sortId": null,
+                        "sta": "outStackInfopage",
+                        "status": null,
+                        "uRl": "js.outStackinfo"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/deliery.png",
+                        "menuId": "14",
+                        "menuName": "配送商管理",
+                        "pmenuId": "4",
+                        "sortId": null,
+                        "sta": "deliverypage",
+                        "status": null,
+                        "uRl": "js.deliverypage"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/proStatus.png",
+                        "menuId": "16",
+                        "menuName": "订单管理",
+                        "pmenuId": "4",
+                        "sortId": null,
+                        "sta": "orderDetailspage",
+                        "status": null,
+                        "uRl": "js.orderDetailsInfo"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "4",
+                "menuName": "销售管理",
+                "pmenuId": null,
+                "sortId": 4,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/stockInfo.png",
+                        "menuId": "18",
+                        "menuName": "仓库管理",
+                        "pmenuId": "5",
+                        "sortId": null,
+                        "sta": "stockinfopage",
+                        "status": null,
+                        "uRl": "js.stockinfo"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "5",
+                "menuName": "仓库管理",
+                "pmenuId": null,
+                "sortId": 5,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/logicon.png",
+                        "menuId": "8",
+                        "menuName": "查看日志",
+                        "pmenuId": "6",
+                        "sortId": null,
+                        "sta": "logpage",
+                        "status": null,
+                        "uRl": "js.logpage"
+                    }
+                },
+                {
+                    "children": [],
+                    "menuinfoEntity": {
+                        "img": "img\/dellog.png",
+                        "menuId": "9",
+                        "menuName": "删除日志",
+                        "pmenuId": "6",
+                        "sortId": null,
+                        "sta": "loginfoDelpage",
+                        "status": null,
+                        "uRl": "js.loginfoDel"
+                    }
+                }
+            ],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "6",
+                "menuName": "日志管理",
+                "pmenuId": null,
+                "sortId": 6,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        },
+        {
+            "children": [],
+            "menuinfoEntity": {
+                "img": null,
+                "menuId": "7",
+                "menuName": "会员管理",
+                "pmenuId": null,
+                "sortId": 7,
+                "sta": null,
+                "status": true,
+                "uRl": "123"
+            }
+        }
+    ],
+    "menuinfoEntity": null
+}}

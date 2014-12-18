@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="operinfoAction" extends="struts-default,json-default" namespace="/">
+        <action name="operinfodel" class="com.shinowit.actions.OperInfoAction" method="operdelExecute">
+            <result type="json" name="success"></result>
+        </action>
+
+        <action name="operinfoinsertl" class="com.shinowit.actions.OperInfoAction" method="operinsertexecute">
+            <result type="json" name="success"></result>
+        </action>
+
+        <action name="operinfoedit" class="com.shinowit.actions.OperInfoAction" method="opereditExecute">
+            <result type="json" name="success"></result>
+        </action>
+    </package>
+</struts>

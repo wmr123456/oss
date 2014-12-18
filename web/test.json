@@ -1,0 +1,362 @@
+{"authorizationList": null, "count": 0, "delierylist": null, "endPrice": null, "goodsClasslist": null, "indetaileInfoList": null, "instockList": null, "limit": 20, "logList": null, "merchandiseinfolist": null, "operList": [
+    {
+        "address": "当地",
+        "email": "123456",
+        "linkTel": "123456",
+        "operId": "1",
+        "operName": "admin",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123456",
+        "roleinfoByRoleId": {
+            "roleId": "1",
+            "roleName": "超级管理员",
+            "sortId": 1,
+            "status": true
+        },
+        "sortId": 1,
+        "status": true,
+        "telphone": "123456"
+    },
+    {
+        "address": "当地",
+        "email": "12",
+        "linkTel": "123",
+        "operId": "2",
+        "operName": "系统管理员",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "2",
+            "roleName": "系统管理员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 2,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "3",
+        "operName": "人事",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "3",
+            "roleName": "人事",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 3,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "5",
+        "operName": "提货员",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "5",
+            "roleName": "提货员",
+            "sortId": 5,
+            "status": true
+        },
+        "sortId": 5,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "6",
+        "operName": "仓库管理员",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "6",
+            "roleName": "仓库管理员",
+            "sortId": 6,
+            "status": true
+        },
+        "sortId": 6,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "123",
+        "email": "132",
+        "linkTel": "123",
+        "operId": "8a8299984a490e73014a490f721b0000",
+        "operName": "王茂瑞",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "132",
+        "roleinfoByRoleId": {
+            "roleId": "1",
+            "roleName": "超级管理员",
+            "sortId": 1,
+            "status": true
+        },
+        "sortId": null,
+        "status": true,
+        "telphone": "132"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640600000",
+        "operName": "0",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "6",
+            "roleName": "仓库管理员",
+            "sortId": 6,
+            "status": true
+        },
+        "sortId": 0,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba6406f0001",
+        "operName": "1",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "1",
+            "roleName": "超级管理员",
+            "sortId": 1,
+            "status": true
+        },
+        "sortId": 1,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba6406f0002",
+        "operName": "2",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "5",
+            "roleName": "提货员",
+            "sortId": 5,
+            "status": true
+        },
+        "sortId": 2,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba6406f0003",
+        "operName": "3",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "4",
+            "roleName": "入库员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 3,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba6406f0004",
+        "operName": "4",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "5",
+            "roleName": "提货员",
+            "sortId": 5,
+            "status": true
+        },
+        "sortId": 4,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640700005",
+        "operName": "5",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "2",
+            "roleName": "系统管理员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 5,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640700006",
+        "operName": "6",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "2",
+            "roleName": "系统管理员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 6,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640700007",
+        "operName": "7",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "4",
+            "roleName": "入库员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 7,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640700008",
+        "operName": "8",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "5",
+            "roleName": "提货员",
+            "sortId": 5,
+            "status": true
+        },
+        "sortId": 8,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba640700009",
+        "operName": "9",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "4",
+            "roleName": "入库员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 9,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba64070000a",
+        "operName": "10",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "6",
+            "roleName": "仓库管理员",
+            "sortId": 6,
+            "status": true
+        },
+        "sortId": 10,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba64070000b",
+        "operName": "11",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "6",
+            "roleName": "仓库管理员",
+            "sortId": 6,
+            "status": true
+        },
+        "sortId": 11,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba64070000c",
+        "operName": "12",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "2",
+            "roleName": "系统管理员",
+            "sortId": null,
+            "status": true
+        },
+        "sortId": 12,
+        "status": true,
+        "telphone": "123"
+    },
+    {
+        "address": "当地",
+        "email": "123",
+        "linkTel": "123",
+        "operId": "8a8299984a4ba63c014a4ba64070000d",
+        "operName": "13",
+        "password": "202cb962ac59075b964b07152d234b70",
+        "qq": "123",
+        "roleinfoByRoleId": {
+            "roleId": "6",
+            "roleName": "仓库管理员",
+            "sortId": 6,
+            "status": true
+        },
+        "sortId": 13,
+        "status": true,
+        "telphone": "123"
+    }
+], "orderDlist": null, "outStackDList": null, "outStackList": null, "page": 1, "param1": null, "param2": null, "param3": null, "param4": null, "param5": null, "param6": null, "param7": null, "param8": null, "prostatuslist": null, "roleList": null, "rows": 100006, "startPrice": null, "stockList": null, "supplierlist": null, "unitlist": null}

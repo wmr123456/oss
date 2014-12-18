@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="proStatusinfo" extends="struts-default,json-default" namespace="/">
+        <action name="proStatusInsert" class="com.shinowit.actions.ProStatusACtion" method="proStatusInsert">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="proStatusdel" class="com.shinowit.actions.ProStatusACtion" method="proStatusDel">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="proStatusEdit" class="com.shinowit.actions.ProStatusACtion" method="proStatusEdit">
+            <result name="success" type="json"></result>
+        </action>
+    </package>
+</struts>

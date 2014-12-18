@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="supplier" extends="struts-default,json-default" namespace="/">
+        <!--供应商的插入方法-->
+        <action name="supplierinsert" class="com.shinowit.actions.SupplierinfoAction" method="supplierinsert">
+            <result type="json" name="success"></result>
+        </action>
+        <!--供应商的删除方法-->
+        <action name="supplierdel" class="com.shinowit.actions.SupplierinfoAction" method="supplierDel">
+            <result type="json" name="success"></result>
+        </action>
+        <!--供应商的修改方法-->
+        <action name="supplieredit" class="com.shinowit.actions.SupplierinfoAction" method="supplieredit">
+            <result type="json" name="success"></result>
+        </action>
+    </package>
+</struts>

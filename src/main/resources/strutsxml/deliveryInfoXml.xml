@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="deliveryinfo" extends="struts-default,json-default" namespace="/">
+        <action name="deliveruInsert" class="com.shinowit.actions.DeliveryInfoAction" method="delieryInsert">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="deliveruDel" class="com.shinowit.actions.DeliveryInfoAction" method="deliveryDel">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="deliveruEdit" class="com.shinowit.actions.DeliveryInfoAction" method="deliveryEdit">
+            <result name="success" type="json"></result>
+        </action>
+    </package>
+</struts>

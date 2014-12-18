@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="pageAction" extends="struts-default,json-default" namespace="/">
+        <!--商品分类查询-->
+        <action name="goodspagelist" class="com.shinowit.actions.PageAction" method="goodsClassExecute">
+            <result type="json">
+                <!--<param name="includeProperties">goodsClasslist.*</param>-->
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*merchandiseinfosByMerchandiseCid
+                </param>
+            </result>
+        </action>
+        <!--供应商的查询-->
+        <action name="supplierpage" class="com.shinowit.actions.PageAction" method="executeSupplier">
+            <result type="json" name="success"></result>
+        </action>
+        <!--商品促销状态查询-->
+        <action name="proStatuspage" class="com.shinowit.actions.PageAction" method="executeProStutus">
+            <result type="json" name="success"></result>
+        </action>
+        <!--日志查询-->
+        <action name="loginfopage" class="com.shinowit.actions.PageAction" method="loginfoExecute">
+            <result type="json" name="success"></result>
+        </action>
+        <!--配送商查询-->
+        <action name="deliverypage" class="com.shinowit.actions.PageAction" method="deliveryExecute">
+            <result type="json" name="success"></result>
+        </action>
+        <!--商品信息查询-->
+        <action name="merchandisepage" class="com.shinowit.actions.PageAction" method="merchandiseinfoExecute">
+            <result type="json" name="success">
+                <!--<param name="excludeProperties">.*hibernateLazyInitializer,.*handler,.*merchandiseinfosByMerchandiseCid,.*outstockdetailsinfosByMerchandiseId,.*stockinfosByMerchandiseId,.*orderdetailsinfosByMerchandiseId</param>-->
+            </result>
+        </action>
+        <!--商品单位查询-->
+        <action name="unitInfopage" class="com.shinowit.actions.PageAction" method="unitInfoExecute">
+            <result type="json" name="success"></result>
+        </action>
+        <!--订单明细查询-->
+        <action name="orderdetaileinfopage" class="com.shinowit.actions.PageAction" method="orderDetaileInfoExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*merchandiseinfosByMerchandiseCid,.*merchandiseinfosByUnitInfoId,.*orderdetailsinfosByUnitInfoId,.*merchandisecinfoByMerchandiseCid,
+                    .*orderdetailsinfosByMerchandiseId,.*outstockdetailsinfosByMerchandiseId,.*prostatusinfoByProStatusId
+                </param>
+            </result>
+        </action>
+        <!--入库信息查询-->
+        <action name="instockinfopage" class="com.shinowit.actions.PageAction" method="instockinfoExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*merchandiseinfoByMerchandiseId,.*instockinfosByOperId,.*loginfosByOperId,.*roleinfoByRoleId
+                </param>
+            </result>
+        </action>
+        <!--入库详细信息查询-->
+        <action name="indetaileInfofopage" class="com.shinowit.actions.PageAction" method="instockdetailteExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*instockinfoByBillCode,.*instockdetailsinfosByMerchandiseId,.*prostatusinfoByProStatusId,.*merchandisecinfoByMerchandiseCid,.*unitinfoByUnitInfoId,.*orderdetailsinfosByMerchandiseId
+                </param>
+            </result>
+        </action>
+        <!--仓库查询-->
+        <action name="stockinfopage" class="com.shinowit.actions.PageAction" method="stockinfoExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*instockinfosByOperId,.*prostatusinfoByProStatusId,.*unitinfoByUnitInfoId
+                </param>
+            </result>
+        </action>
+        <!--出库查询-->
+        <action name="outstockinfopage" class="com.shinowit.actions.PageAction" method="outStackExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*loginfosByOperId,.*roleinfoByRoleId,.*instockinfosByOperId,.*merchandisecinfoByMerchandiseCid,.*prostatusinfoByProStatusId
+                </param>
+            </result>
+        </action>
+
+        <!--出库详情查询-->
+        <action name="outstockdetaileinfopage" class="com.shinowit.actions.PageAction" method="outStackdetaileExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">
+                    .*hibernateLazyInitializer,.*handler,.*outstockinfoByOutCode,.*prostatusinfoByProStatusId,.*merchandisecinfoByMerchandiseCid
+                </param>
+            </result>
+        </action>
+        <!--查看操作员信息-->
+        <action name="operinfopage" class="com.shinowit.actions.PageAction" method="operinfoExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">.*hibernateLazyInitializer,.*handler,.*authorizationsByRoleId</param>
+            </result>
+        </action>
+        <!--查看角色信息-->
+        <action name="roleinfopage" class="com.shinowit.actions.PageAction" method="roleinfoExecute">
+            <result type="json" name="success">
+                <param name="excludeProperties">.*hibernateLazyInitializer,.*handler,.*operinfosByRoleId</param>
+            </result>
+        </action>
+        <!--查看权限信息-->
+        <action name="authorizationpage" class="com.shinowit.actions.PageAction" method="authorizationExecute">
+            <result type="json" name="success">
+                <!--<param name="excludeProperties">.*hibernateLazyInitializer,.*handler,.*authorizationsByRoleId,.*operinfosByRoleId</param>-->
+            </result>
+        </action>
+    </package>
+</struts>

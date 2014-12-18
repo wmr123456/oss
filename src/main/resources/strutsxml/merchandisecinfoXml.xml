@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="merchandisecinfo" extends="struts-default,json-default" namespace="/">
+        <!--//insert()方法的action-->
+        <action name="goodsInsert" class="com.shinowit.actions.MerchandiseCInfoAction" method="insert">
+            <result name="success" type="json"></result>
+        </action>
+        <!--//del()的action-->
+        <action name="goodsdel" class="com.shinowit.actions.MerchandiseCInfoAction" method="del">
+            <result name="success" type="json"></result>
+        </action>
+        <!--//edit()的action-->
+        <action name="goodsedit" class="com.shinowit.actions.MerchandiseCInfoAction" method="edit">
+            <result name="success" type="json"></result>
+        </action>
+        <!--//selectByclass()的action-->
+        <action name="goodsSelect" class="com.shinowit.actions.MerchandiseCInfoAction" method="selectByclass">
+            <result name="success" type="json"></result>
+        </action>
+    </package>
+</struts>

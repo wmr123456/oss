@@ -1,0 +1,152 @@
+{"authorizationList": null, "count": 100007, "delierylist": null, "endPrice": null, "goodsClasslist": null, "indetaileInfoList": null, "instockList": null, "limit": 5, "logList": null, "merchandiseinfolist": [
+    {
+        "clickCount": 1,
+        "descri": "1",
+        "merchandiseAb": "JXBG",
+        "merchandiseId": "1",
+        "merchandiseName": "夹心饼干",
+        "merchandisecinfoByMerchandiseCid": {
+            "merchandiseCName": "食品",
+            "merchandiseCid": "1",
+            "sortId": 156,
+            "status": false
+        },
+        "picPath": "1",
+        "price": 1.00,
+        "prostatusinfoByProStatusId": {
+            "proStatusId": "1",
+            "proStatusName": "打折",
+            "remark": "打折",
+            "status": true
+        },
+        "remark": "1",
+        "saleStatus": null,
+        "spec": "1",
+        "unitinfoByUnitInfoId": {
+            "remark": "1",
+            "status": true,
+            "unitInfoId": 2,
+            "unitInfoName": "( 元)\/箱"
+        }
+    },
+    {
+        "clickCount": 454,
+        "descri": "46",
+        "merchandiseAb": "456",
+        "merchandiseId": "2",
+        "merchandiseName": "曲奇饼干",
+        "merchandisecinfoByMerchandiseCid": {
+            "merchandiseCName": "食品",
+            "merchandiseCid": "1",
+            "sortId": 156,
+            "status": false
+        },
+        "picPath": "55",
+        "price": 465.00,
+        "prostatusinfoByProStatusId": {
+            "proStatusId": "8a82999849ccccd40149cccfa46c0002",
+            "proStatusName": "停售",
+            "remark": "停售",
+            "status": true
+        },
+        "remark": "54",
+        "saleStatus": true,
+        "spec": "54",
+        "unitinfoByUnitInfoId": {
+            "remark": "1",
+            "status": true,
+            "unitInfoId": 2,
+            "unitInfoName": "( 元)\/箱"
+        }
+    },
+    {
+        "clickCount": null,
+        "descri": null,
+        "merchandiseAb": "132",
+        "merchandiseId": "8a82999849e0885f0149e08884bc0000",
+        "merchandiseName": "威化饼干",
+        "merchandisecinfoByMerchandiseCid": {
+            "merchandiseCName": "食品",
+            "merchandiseCid": "1",
+            "sortId": 156,
+            "status": false
+        },
+        "picPath": "132",
+        "price": 123.00,
+        "prostatusinfoByProStatusId": {
+            "proStatusId": "8a82999849ccccd40149cccd65970000",
+            "proStatusName": "正常销售",
+            "remark": "正常销售",
+            "status": true
+        },
+        "remark": "132",
+        "saleStatus": false,
+        "spec": "123",
+        "unitinfoByUnitInfoId": {
+            "remark": "1",
+            "status": true,
+            "unitInfoId": 1,
+            "unitInfoName": "(元)\/个"
+        }
+    },
+    {
+        "clickCount": null,
+        "descri": "",
+        "merchandiseAb": "465",
+        "merchandiseId": "8a82999849e0a5c20149e0a67f390000",
+        "merchandiseName": "传统糕点",
+        "merchandisecinfoByMerchandiseCid": {
+            "merchandiseCName": "食品",
+            "merchandiseCid": "1",
+            "sortId": 156,
+            "status": false
+        },
+        "picPath": "312",
+        "price": 123.00,
+        "prostatusinfoByProStatusId": {
+            "proStatusId": "8a82999849ccccd40149cccfa46c0002",
+            "proStatusName": "停售",
+            "remark": "停售",
+            "status": true
+        },
+        "remark": "132",
+        "saleStatus": null,
+        "spec": "123",
+        "unitinfoByUnitInfoId": {
+            "remark": "1",
+            "status": true,
+            "unitInfoId": 2,
+            "unitInfoName": "( 元)\/箱"
+        }
+    },
+    {
+        "clickCount": null,
+        "descri": null,
+        "merchandiseAb": "",
+        "merchandiseId": "8a82999849e0c9980149e0cb5a9a0000",
+        "merchandiseName": "蛋卷",
+        "merchandisecinfoByMerchandiseCid": {
+            "merchandiseCName": "食品",
+            "merchandiseCid": "1",
+            "sortId": 156,
+            "status": false
+        },
+        "picPath": "312",
+        "price": 132.00,
+        "prostatusinfoByProStatusId": {
+            "proStatusId": "1",
+            "proStatusName": "打折",
+            "remark": "打折",
+            "status": true
+        },
+        "remark": "132",
+        "saleStatus": false,
+        "spec": "123",
+        "unitinfoByUnitInfoId": {
+            "remark": "1",
+            "status": true,
+            "unitInfoId": 1,
+            "unitInfoName": "(元)\/个"
+        }
+    }
+], "operList": null, "orderDlist": null, "outStackDList": null, "outStackList": null, "page": 1, "param1": null, "param2": null, "param3": null, "param4": null, "param5": null, "param6": null, "param7": null, "param8": null, "prostatuslist": null, "roleList": null, "rows": 0, "startPrice": null, "stockList": null, "supplierlist": null, "unitlist": null}

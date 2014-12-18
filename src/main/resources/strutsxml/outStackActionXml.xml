@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="outStackInfopage" extends="struts-default,json-default" namespace="/">
+        <action name="outStackInert" class="com.shinowit.actions.OutStackinfoAction" method="outStackInsertExecute">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="outStackDel" class="com.shinowit.actions.OutStackinfoAction" method="ooutStackDelExecute">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="outStackEdit" class="com.shinowit.actions.OutStackinfoAction" method="outStackEditExecute">
+            <result name="success" type="json"></result>
+        </action>
+    </package>
+</struts>
